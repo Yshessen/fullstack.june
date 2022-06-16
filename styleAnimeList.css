@@ -29,7 +29,7 @@ object-fit: fill;
   color: rgb(12, 11, 11);
   font-weight: bold;
   font-size: 18px;
-  transition: 3s ease;
+  transition: 0.6s ease;
   user-select: none;
 }
 
