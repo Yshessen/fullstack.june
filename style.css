@@ -3,8 +3,14 @@
 
 }
 
-.grid-container {
+.grid {
     display: grid;
-    background-color: #000000;
     padding: 10px;
+  }
+
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
   }
