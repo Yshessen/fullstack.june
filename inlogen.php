@@ -1,25 +1,25 @@
 <?php
 // place holder log in information
-    $users = [
-        "piet@worldonline.nl" => "doetje123",
-        "klaas@carpets.nl" => "snoepje777",
-        "truushendriks@wegweg.nl" => "arkiearkie201"
-    ]
-;
+//     $users = [
+//         "piet@worldonline.nl" => "doetje123",
+//         "klaas@carpets.nl" => "snoepje777",
+//         "truushendriks@wegweg.nl" => "arkiearkie201"
+//     ]
+// ;
 
-$servername = "localhost";
-$dbname = "fullstack.opt";
-$usernamedb = "root";
-$passworddb = "";
+// $servername = "localhost";
+// $dbname = "fullstack.opt";
+// $usernamedb = "root";
+// $passworddb = "";
 
-try {
-    $conn = new PDO ("mysql:host=$servername;dbname=$dbname", $usernamedb, $passworddb);
-    //set PDO error mode to exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    //echo "Connected successfully";
-} catch (PDOException $e) {
-    echo "Connection Failed Successfully:" . $e->getMessage()();
-}
+// try {
+//     $conn = new PDO ("mysql:host=$servername;dbname=$dbname", $usernamedb, $passworddb);
+//     //set PDO error mode to exception
+//     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+//     //echo "Connected successfully";
+// } catch (PDOException $e) {
+//     echo "Connection Failed Successfully:" . $e->getMessage()();
+// }
 
 
 // $query ="SELECT * FROM Acounts";
@@ -44,9 +44,9 @@ try {
 
     function check_credentials($username, $wachtwoord) {
         $servername = "localhost";
-        $dbname = "id18989005_phpschool";
-        $usernamedb = "id18989005_kipster";
-        $passworddb = "0]n3EG|>&k{TjNuX";
+        $dbname = "id19138934_animelistodb";
+        $usernamedb = "id19138934_animan";
+        $passworddb = "d2n#Y_Kxs5m3F\1Y";
         try {
             $conn = new PDO ("mysql:host=$servername;dbname=$dbname", $usernamedb, $passworddb);
             //set PDO error mode to exception
