@@ -8,9 +8,9 @@
 ;
 
 $servername = "localhost";
-$dbname = "id18989005_phpschool";
-$usernamedb = "id18989005_kipster";
-$passworddb = "0]n3EG|>&k{TjNuX";
+$dbname = "fullstack.opt";
+$usernamedb = "root";
+$passworddb = "";
 
 try {
     $conn = new PDO ("mysql:host=$servername;dbname=$dbname", $usernamedb, $passworddb);
@@ -60,7 +60,9 @@ try {
             $stmt->execute() or die ("error 2.");
         while ($row = $stmt->fetch()){
             foreach ($conn as $row["AcountName"] => $row["AcountPassword"]) {
-                if ($row["AcountName"] == $username AND $row["AcountPassword"] == $wachtwoord);
+                if ($row["AcountName"] == $username AND $row["AcountPassword"] == $wachtwoord){
+                    return $row["idAcount"];
+                }
             }
         }
         return false;
