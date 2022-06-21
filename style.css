@@ -14,3 +14,23 @@
     font-size: 30px;
     text-align: center;
   }
+
+
+
+
+
+  header.page-header {
+    background: no-repeat left/cover url(pics/header.jpg);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+    background-size: 25%;
+    background-position: 55%;
+
+}
+
+header.page-header > h1 {
+   padding-left: 43%;
+}
+
