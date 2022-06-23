@@ -134,11 +134,5 @@ nav{
     cursor: pointer;
 }
 
-.background-image{
-    background-image:url('./pics/purpleHazeBackground.webp');
-    
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    height: 100vh;
-}
+
+
