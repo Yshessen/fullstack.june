@@ -76,16 +76,16 @@ nav{
 }
 
 .btn{
-    background:#ff3d00;
-    color: #000;
+    background:purple;
+    color: magenta;
     padding: 10px 30px;
     border-radius: 3px;
     cursor: pointer;
 }
 
 .btn2{
-    background:orange;
-    color: #000;
+    background:magenta;
+    color: purple;
     padding: 10px 30px;
     border-radius: 3px;
     cursor: pointer;
@@ -126,13 +126,36 @@ nav{
 }
 
 .content form button{
-    background: #ff3d00;
-    color:#000;
+    background:purple;
+    color: white;
     padding: 15ox 40px;
     border: none;
     border-radius: 6px; 
     cursor: pointer;
 }
 
+.catergory-list{
+    width: 80px;
+    height: 80px;
+    background: rgba
+}
 
+.background-image{
+    position: absolute;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+@media(min-aspect-ratio: 16/9){
+    .background-image{
+        width: 100%;
+        height: auto;
+
+    }
+    
+}
 
