@@ -14,8 +14,12 @@
         $stmt->execute() or die ('error 2.');
     //verifing
     if(password_verify($pass, $row["AcountPassword"]) == true){
+        //cookies opslaan en terug naar homepage
         
 
+    }else{
+        //fouten inlog gegevens
+        
     }
 
     }
@@ -43,15 +47,12 @@
         }if (!isset($_POST['wachtwoord']) OR empty($_POST['wachtwoord'])){
             header("location: " .$_SERVER['PHP_SELF']);
         }
-        //opslaan variables
-        $username = $_POST['username'];
-        $wachtwoord = $_POST['wachtwoord'];
-        
-        if (check_credentials($username, $wachtwoord)){
-            echo "placeholder to log in and get cookies";
-        }else{
-            exit("Acess Denied!");
-        }
+
+        // if (check_credentials($username, $wachtwoord)){
+        //     echo "placeholder to log in and get cookies";
+        // }else{
+        //     exit("Acess Denied!");
+        // }
     }
 
 
